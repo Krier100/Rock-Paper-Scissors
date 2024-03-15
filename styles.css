@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px;
+  }
+    
+  h1 {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 50px;
+  }
+  
+  #result-counter {
+    text-align: left;
+    margin-top: 40px;
+    color: whitesmoke;
+  }
+  
+  #result-counter h2 {
+    text-align: left;
+    margin: 0;
+    color: whitesmoke;
+  }
+  
+  #instructions {
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+  }
+  
+  #game {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .choice-img {
+    width: 110px;
+    margin-right: 25px;
+  }
+  
+  #buttons {
+    margin-top: 0px;
+    border-radius: 15px;
+  }
+
+  form btn2{
+    padding: 14px 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .btn.btn2{
+    display: inline-block;
+    background: #00a6d6;
+  }
+  .btn{
+    display: inline-block;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 30px; 
+    border-radius: 6px;
+    text-decoration: none;
+    color: gray;
+    transition: background 0.7s;
+  }
+  .btn:hover{
+    background: black;
+  }
+  
+  button {
+    padding: 10px 35px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .win {
+    text-align: center;
+    font-align: 25px;
+    color: lightgreen;
+  }
+  
+  .draw {
+    text-align: center;
+    font-align: 25px;
+    color: yellow;
+  }
+  
+  .lose {
+    text-align: center;
+    font-align: 25px;
+    color: red;
+  }
+  .win, .lose, .draw {
+    text-align: center;
+    font-align: 25px;
+    margin-top: 20px; /* Kisebb távolság a szövegek és a gombok között */
+  }
+
+  .copyrigth{
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .copyrigth i{
+    color: #00a6d6;
+  }
+  
